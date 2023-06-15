@@ -16,12 +16,14 @@
   }
 }
 
-body {
+html, body, #app-index {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background: rgb(245, 238, 238);
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
+
+
+
+
